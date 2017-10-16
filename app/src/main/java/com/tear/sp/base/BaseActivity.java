@@ -22,6 +22,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         try {
+
             mActivity = this;
             AppManager.getInstance().addActivity(this);
             setContentView(getLayoutId());
