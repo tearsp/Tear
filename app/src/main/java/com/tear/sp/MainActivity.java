@@ -29,7 +29,7 @@ public class MainActivity extends BaseActivity {
         tv_main.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(mActivity, "Bind", Toast.LENGTH_SHORT).show();
+                Toast.makeText(mActivity, "git成功", Toast.LENGTH_SHORT).show();
             }
         });
     }
