@@ -12,7 +12,8 @@ import butterknife.OnClick;
 public class MainActivity extends BaseActivity {
     @BindView(R.id.tv_main)
     TextView tv_main;
-    private static final String TAG="MainActivity";
+    private static final String TAG="MainActivity______";
+
 
     @Override
     protected int getLayoutId() {
