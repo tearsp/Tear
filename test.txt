@@ -1,3 +1,4 @@
 status
 git add
 git checkout --file
+git checkout -b dev
